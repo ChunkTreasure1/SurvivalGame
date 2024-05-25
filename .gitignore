@@ -1,4 +1,5 @@
 Log/
+Generated/
 
 *.csproj
 *.user
