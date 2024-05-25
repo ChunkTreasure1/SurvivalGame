@@ -1,0 +1,9 @@
+Project:
+  EngineVersion: 0.1.5
+  Name: SurvivalGame
+  CompanyName: None
+  AssetsDirectory: Assets
+  AudioBanksDirectory: Audio/Banks
+  IconPath: ""
+  CursorPath: ""
+  StartScenePath: ""

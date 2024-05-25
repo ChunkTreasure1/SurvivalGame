@@ -1,0 +1,26 @@
+Material:
+  name: M_Grey
+  materials:
+    - material: New Material
+      index: 0
+      shader: Illum
+      isPermutation: false
+      flags: 176
+      topology: 0
+      cullMode: 1
+      triangleFillMode: 0
+      depthMode: 2
+      data:
+        color: [0.215189874, 0.215189874, 0.215189874, 1]
+        emissiveColor: [1, 1, 1]
+        emissiveStrength: 0
+        roughness: 0.5
+        metalness: 0
+        normalStrength: 0
+      textures:
+        - binding: albedo
+          handle: 0
+        - binding: material
+          handle: 0
+        - binding: normal
+          handle: 0
