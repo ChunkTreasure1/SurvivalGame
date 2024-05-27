@@ -1,5 +1,7 @@
 Log/
+.vs/
 Generated/
+Intermediates/
 
 *.csproj
 *.user
