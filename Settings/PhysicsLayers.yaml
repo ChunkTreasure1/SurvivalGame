@@ -1,0 +1,9 @@
+PhysicsLayers:
+  - layerId: 0
+    bitValue: 1
+    collidesWith: 3
+    name: Default
+  - layerId: 1
+    bitValue: 2
+    collidesWith: 3
+    name: Items
