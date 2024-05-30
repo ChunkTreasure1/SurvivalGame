@@ -106,10 +106,7 @@ namespace SurvivalGame
             }
 
             m_characterController.Move(resultDir * (isSprinting ? SprintSpeed : Speed) * deltaTime);
-        }
 
-        private void OnFixedUpdate(float deltaTime)
-        {
             RaycastHit hit;
             if (Physics.Raycast(CameraEntity.position, CameraEntity.forward, out hit, MaxItemGrabLength, 2))
             {
