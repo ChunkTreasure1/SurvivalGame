@@ -116,5 +116,15 @@ namespace SurvivalGame
                 }
             }
         }
+
+        public float GetStaminaPercentage()
+        {
+            return m_currentStaminaAmount / MaxStamina;
+        }
+
+        public float GetHealthPercentage()
+        {
+            return 1f;
+        }
     }
 }
